@@ -254,7 +254,7 @@ dataSet[dataSetVersion].characterData = [
     }
   }, 
   {
-    name: "Kiromachi Nanami",
+    name: "Hiromachi Nanami",
     img: "nanami.png",
     opts: {
       band: ["morf"],
@@ -375,7 +375,7 @@ dataSet[dataSetVersion].characterData = [
   }, 
   {
     name: "Yahata Umiri",
-    img: "Umiri.png",
+    img: "umiri.png",
     opts: {
       band: ["ave"],
       role: ["bs"],
