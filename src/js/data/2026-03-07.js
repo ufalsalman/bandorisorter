@@ -1,4 +1,4 @@
-dataSetVersion = "2025-04-24"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2026-03-07"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -17,7 +17,9 @@ dataSet[dataSetVersion].options = [
       { name: "Morfonica", key: "morf" },
       { name: "MyGO!!!!!", key: "mygo" },
       { name: "Ave Mujica", key: "ave" },
-      { name: "Mugendai Mewtype", key: "mugendai" },
+      { name: "Mugendai Mewtype", key: "yume" },
+      { name: "millsage", key: "mill" },
+      { name: "Ikka Dumb Rock!", key: "dumb" },
     ]
   },
   {
@@ -401,7 +403,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Nakamachi Arale",
     img: "arale.png",
     opts: {
-      band: ["mugendai"],
+      band: ["yume"],
       role: ["vo"],
     }
   },
@@ -409,7 +411,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Miyanaga Nonoka",
     img: "nonoka.png",
     opts: {
-      band: ["mugendai"],
+      band: ["yume"],
       role: ["gt"],
     }
   }, 
@@ -417,7 +419,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Minetsuki Ritsu",
     img: "ritsu.png",
     opts: {
-      band: ["mugendai"],
+      band: ["yume"],
       role: ["gt"],
     }
   },
@@ -425,7 +427,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Fuji Miyako",
     img: "miyako.png",
     opts: {
-      band: ["mugendai"],
+      band: ["yume"],
       role: ["kb"],
     }
   },
@@ -433,8 +435,88 @@ dataSet[dataSetVersion].characterData = [
     name: "Sengoku Yuno",
     img: "yuno.png",
     opts: {
-      band: ["mugendai"],
+      band: ["yume"],
       role: ["dj"],
+    }
+  },
+  {
+    name: "Shiomi Hotaru",
+    img: "hotaru.png",
+    opts: {
+      band: ["mill"],
+      role: ["vo","kb"],
+    }
+  },
+  {
+    name: "Izawa Natsume",
+    img: "natsume.png",
+    opts: {
+      band: ["mill"],
+      role: ["gt"],
+    }
+  },
+  {
+    name: "Kotohira Nagi",
+    img: "nagi.png",
+    opts: {
+      band: ["mill"],
+      role: ["gt"],
+    }
+  },
+  {
+    name: "Hamasaki Mahoro",
+    img: "mahoro.png",
+    opts: {
+      band: ["mill"],
+      role: ["bs"],
+    }
+  },
+  {
+    name: "Izumi Houka",
+    img: "houka.png",
+    opts: {
+      band: ["mill"],
+      role: ["dr"],
+    }
+  },
+  {
+    name: "Suga Raika",
+    img: "raika.png",
+    opts: {
+      band: ["dumb"],
+      role: ["vo","gt"],
+    }
+  },
+  {
+    name: "Mahashi Miku",
+    img: "miku.png",
+    opts: {
+      band: ["dumb"],
+      role: ["vo","gt"],
+    }
+  },
+  {
+    name: "Yakura Yomogi",
+    img: "yomogi.png",
+    opts: {
+      band: ["dumb"],
+      role: ["bs"],
+    }
+  },
+  {
+    name: "Shinomiya Shizuku",
+    img: "shizuku.png",
+    opts: {
+      band: ["dumb"],
+      role: ["kb"],
+    }
+  },
+  {
+    name: "Umezato Chieri",
+    img: "chieri.png",
+    opts: {
+      band: ["dumb"],
+      role: ["dr"],
     }
   },
 ]
